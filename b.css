@@ -1,0 +1,190 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+	font-family: Noto Sans CJK TC Regular;
+	width: 900px;
+	margin:0 auto;
+}
+
+.header{
+	padding: 0 10px;
+	height: 40px;
+	background: black;
+	color: white;
+}
+
+.header h1{
+	margin: 8px 0;
+	font-size: 24px;
+	float: left;
+	display: inline;
+}
+
+.header a{
+	font-size: 16px;
+	height: 24px;
+	display: block;
+	color: white;
+	float: right;
+	text-decoration: none;
+	margin: 8px 10px;
+}
+
+.header a:hover{
+	color: orange;
+}
+
+.head-pic{
+	position: relative;
+}
+
+.head-pic img{
+	width: 100%;
+}
+
+.title{
+	width: 450px;
+	height: 150px;
+	background: rgba(0%,0%,0%,0.4);
+	position: absolute;
+	left:225px;
+	bottom: 125px;
+}
+
+.title h2{
+	margin-top: 20px;
+	font-size: 36px;
+	color: white;
+	text-align: center;
+}
+
+
+.title p{
+	margin-top: 35px;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+
+.introdution{
+	padding: 15px 10px;
+}
+
+.list{
+	width: 200px;
+	margin-right:10px;
+	float: left;
+	padding: 10px;
+}
+
+.list h3{
+	font-size: 30px;
+	color: brown;
+	text-align: center;
+	margin:15px 0;
+}
+
+.list a{
+	font-size: 20px;
+	height: 30px;
+	display: block;
+	color: brown;
+	border-bottom: 1px solid gray;
+	text-decoration: none;
+}
+
+
+
+.list a:hover{
+	background: brown;
+	color: white;
+}
+
+.menu{
+	padding-top: 20px;
+	width: 640px;
+	float: left;
+}
+
+.menu ul{
+	margin: 5px;
+	width: 200px;
+	height: 220px;
+	border: 1px solid brown;
+	border-radius: 5px; 
+	float: left;
+}
+
+.menu img{
+	width: 100%;
+}
+
+.menu h3{
+	color: brown;
+	margin-top: 20px;
+	font-size: 28px;
+	text-align: center;
+}
+
+.menu p{
+	margin-top: 10px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.menu a{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 16px;
+	height: 20px;
+	display: block;
+	color: white;
+	background: brown;
+	text-decoration: none;
+}
+
+.menu a:hover{
+	color: orange;
+}
